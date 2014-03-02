@@ -1,0 +1,18 @@
+int main() {
+
+	int vet[5];
+	int i;
+	int a;
+
+	
+	for (i = 0; i < 10; i++)
+	{
+		if (i > 4) {
+			break;
+		}
+
+		vet[i] = i + 5;
+		a = vet[i];
+		cout(a);
+	}
+}

@@ -1,0 +1,21 @@
+int main() {
+
+	int operacao=10;
+	int a,b,c;
+	a = 3;
+	b = 5;
+
+	switch(operacao) {
+		case 1:
+			c = a + b;
+			break;
+		case 2:
+			c = a - b;
+			break;
+		default:
+			c = a*b;
+			break;
+	}
+
+	cout(c);
+}

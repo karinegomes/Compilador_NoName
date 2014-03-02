@@ -1,0 +1,10 @@
+int main() {
+
+	string a = "teste1 ";
+	string b = "teste2";
+
+	string c = a + b;
+
+	cout(c);
+
+}
